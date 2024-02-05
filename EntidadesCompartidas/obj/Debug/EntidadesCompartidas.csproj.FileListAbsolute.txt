@@ -1,0 +1,4 @@
+C:\Users\59899\Documents\Analista de sistemas\Primer año\Proyecto final de primer año\AeropuertosAmericanos\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\59899\Documents\Analista de sistemas\Primer año\Proyecto final de primer año\AeropuertosAmericanos\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\59899\Documents\Analista de sistemas\Primer año\Proyecto final de primer año\AeropuertosAmericanos\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\59899\Documents\Analista de sistemas\Primer año\Proyecto final de primer año\AeropuertosAmericanos\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb

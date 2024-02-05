@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Cliente.master.cs" Inherits="Cliente" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style2
+        {
+            text-align: center;
+            font-size: xx-large;
+        }
+             
+       
+        .style3
+        {
+            width: 63px;
+        }
+             
+       
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table style="width:100%;">
+        <tr>
+            <td class="style2">
+                <strong><em style="color: #336666">Clientes</em></strong></td>
+            <td class="style3" >
+                &nbsp;</td>
+            <td >
+             
+                <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" 
+                    StaticSubMenuIndent="16px" ForeColor="#336666">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Principal.aspx" Text="Inicio" Value="Inicio">
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Histórico de compras" Value="Histórico de compras" 
+                            NavigateUrl="~/HistoricoCompras.aspx">
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Deslogueo" Value="Deslogueo" NavigateUrl="~/Principal.aspx">
+                        </asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+                </td>
+        </tr>
+        <tr>
+            <td style="width:10%;" >
+                &nbsp;</td>
+            <td style="width:90%;" colspan="2">
+             
+                <br />
+                <br />
+                </td>
+        </tr>
+        <tr>
+            <td style="width:10%;" >
+                &nbsp;
+                </td>
+            <td style="width:90%;" colspan="2">
+             
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                </td>
+        </tr>
+    </table>
+    </form>
+    </body>
+</html>
